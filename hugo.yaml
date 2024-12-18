@@ -1,0 +1,72 @@
+# Hugo configuration file
+
+baseurl: "https://engineering.hivebrite.io/"
+#baseurl: "http://localhost:1313/"
+languageCode: "en-us"
+title: Hivebrite Engineering Blog
+copyright: Hivebrite
+theme: hextra
+permalinks:
+  post: /:slug/
+
+pagination:
+  pagerSize: 5
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: GitHub
+      weight: 3
+      url: "https://github.com/Hivebrite"
+      params:
+        icon: github
+
+  # sidebar:
+  #   - identifier: more
+  #     name: More
+  #     params:
+  #       type: separator
+  #     weight: 1
+
+
+params:
+  theme:
+    default: light
+    displayToggle: true
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo.webp
+      # width: 40
+      # height: 20
+      # link: /
+    #width: wide
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: hover
+
+  comments:
+    enable: false
