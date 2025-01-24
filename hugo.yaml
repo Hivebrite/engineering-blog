@@ -5,9 +5,9 @@ baseurl: "https://engineering.hivebrite.io/"
 languageCode: "en-us"
 title: Hivebrite Engineering Blog
 copyright: Hivebrite
-theme: hextra
-permalinks:
-  post: /:slug/
+theme: 0xHivebrite
+# permalinks:
+#   post: /:slug/
 
 pagination:
   pagerSize: 5
@@ -18,42 +18,22 @@ markup:
     renderer:
       unsafe: true
 
-  # enable hextra syntax highlight
-  highlight:
-    noClasses: false
-
 menu:
   main:
-    - name: GitHub
-      weight: 3
-      url: "https://github.com/Hivebrite"
-      params:
-        icon: github
+    - name: BLOG
+      weight: 1
+      url: "/blog"
 
-  # sidebar:
-  #   - identifier: more
-  #     name: More
-  #     params:
-  #       type: separator
-  #     weight: 1
+    - name: ABOUT US
+      weight: 2
+      url: "/about"
 
 
 params:
-  theme:
-    default: light
-    displayToggle: true
-  navbar:
-    displayTitle: true
-    displayLogo: true
-    logo:
-      path: images/logo.webp
-      # width: 40
-      # height: 20
-      # link: /
-    #width: wide
-  footer:
-    displayCopyright: false
-    displayPoweredBy: false
+  largeTwitterCard: true
+  description: Engineering Blog
+  enableSearch: false
+  showReadTime: false
 
   blog:
     list:
@@ -61,12 +41,3 @@ params:
       # date | lastmod | publishDate | title | weight
       sortBy: date
       sortOrder: desc # or "asc"
-
-  highlight:
-    copy:
-      enable: true
-      # hover | always
-      display: hover
-
-  comments:
-    enable: false
