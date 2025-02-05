@@ -1,0 +1,17 @@
+{{- if .Param "authorbox" }}
+{{- $author := index .Site.Data.authors (.Params.author | default "default") }}
+<div class="authorbox">
+    <img alt="{{ $author.name }} picture" src="{{ $author.picture | relURL }}" class="authorbox_picture" title=" " height="200" width="200">
+    <div class="authorbox_block">
+        <div class="authorbox_name">
+            {{ $author.name }}
+        </div>
+        <div class="authorbox_title">
+            {{ $author.title }}
+        </div>
+        <div class="authorbox_bio">
+            {{ $author.bio }}
+        </div>
+    </div>
+</div>
+{{- end }}

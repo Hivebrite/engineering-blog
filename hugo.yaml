@@ -28,8 +28,8 @@ menu:
       weight: 2
       url: "/about"
 
-
 params:
+  authorbox: true
   largeTwitterCard: true
   description: Engineering Blog
   enableSearch: false
