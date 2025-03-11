@@ -1,3 +1,4 @@
+{{- $author := index .Site.Data.authors (.Params.author | default "default") }}
 {{- $showShare := ne (.Param "showshare") false }}
 {{- $showDate := ne (.Param "showdate") false }}
 {{- $showReadTime := ne (.Param "showreadtime") false }}
@@ -8,13 +9,11 @@
   <div class="post_meta">
 {{- end }}
 
-  {{- if $showDate }}
+ {{- if $showDate }}
   {{ if eq .Parent.Type "blog" }}
-    <a href='/about' title="David Calvert">
-      <img loading="lazy" decoding="async" class="author" alt="author thumbnail" title=" " src="/img/dc.webp"/>
-    </a>
+    <img loading="lazy" decoding="async" class="author" alt="{{ $author.name }}'s picture." title=" " src="{{ $author.picture }}"/>
     <div class="post_date">
-      David Calvert<br>
+      {{ $author.name }}<br>
       <span class="grey">{{ .Date.Format (default "January 2, 2006" $.Site.Params.dateFormat) -}}</span>
     </div>
     {{- $scratch.Set "writeSeparator" true }}

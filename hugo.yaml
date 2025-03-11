@@ -18,18 +18,18 @@ markup:
     renderer:
       unsafe: true
 
-menu:
-  main:
-    - name: BLOG
-      weight: 1
-      url: "/blog"
+# menu:
+#   main:
+#     - name: BLOG
+#       weight: 1
+#       url: "/blog"
 
-    - name: ABOUT US
-      weight: 2
-      url: "/about"
-
+#     - name: ABOUT US
+#       weight: 2
+#       url: "/about"
 
 params:
+  authorbox: true
   largeTwitterCard: true
   description: Engineering Blog
   enableSearch: false
@@ -41,3 +41,5 @@ params:
       # date | lastmod | publishDate | title | weight
       sortBy: date
       sortOrder: desc # or "asc"
+
+enableRobotsTXT: true

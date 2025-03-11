@@ -1,0 +1,10 @@
+{
+    "name": "David Calvert",
+    "title": "Staff Site Reliability Engineer",
+    "bio": "David is a Staff Site Reliability Engineer at Hivebrite, working remotely from the south of France. His position allows him to explore a wide range of topics, including infrastructure, observability, code, security and many more! Outside of work, he enjoys rock climbing, listening to music or playing classic graphic adventure games.",
+    "picture": "/img/authors/davidcalvert.webp",
+    "social": {
+        "github": "https://github.com/dotdc",
+        "linkedin": "https://www.linkedin.com/in/0xdc/"
+    }
+}
