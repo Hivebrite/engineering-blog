@@ -16,7 +16,7 @@ featureImageAlt = "Hivebrite's engineering team!"
 
 ## 🧭 Context
 
-On April 11th, a small Hivebrite team participated in an external hackathon hosted at Qonto’s headquarters in Paris. The event was organized by Dust and Qdrant and aimed to explore innovative use cases for generative AI agents.
+On April 11th, a small Hivebrite team participated in an external hackathon hosted at [Qonto](https://qonto.com/)’s headquarters in Paris. The event was organized by [Dust](https://dust.tt/) and [Qdrant](https://qdrant.tech/) and aimed to explore innovative use cases for generative AI agents.
 This one-day hackathon brought together tech enthusiasts, developers, designers, and AI-curious minds to create useful AI agents addressing specific personas or use cases, like sales or customer support. While Dust provided access to powerful models (including OpenAI, Anthropic, DeepSeek, and Mistral), participants were also free to use their own APIs or platforms.
 
 ## 👥 Our Team
