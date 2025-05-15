@@ -23,12 +23,12 @@ This one-day hackathon brought together tech enthusiasts, developers, designers,
 
 Our Hivebrite group included people from different roles and backgrounds, which enriched our collaboration.
 
-- Pierre was incredibly enthusiastic, actively promoting the event beforehand and motivating others to join.
-- Sandy, a talented and passionate frontend developer, brought creativity and attention to detail.
-- David, a versatile SRE with a wide range of talents handled infrastructure and data storage challenges.
-- Slim, a backend developer with a strong ability to pitch and communicate technical ideas, led the agent’s implementation.
-- Cyril, an exceptional backend developer with a talent for making complex concepts accessible, played a key role in guiding the team through technical challenges.
-- As for me, Christine, I’m a front-end developer, curious and eager to learn.
+- **Pierre** was incredibly enthusiastic, actively promoting the event beforehand and motivating others to join.
+- **Sandy**, a talented and passionate front-end developer, brought creativity and attention to detail.
+- **David**, a versatile SRE with a wide range of talents handled infrastructure and data storage challenges.
+- **Slim**, a backend developer with a strong ability to pitch and communicate technical ideas, led the agent’s implementation.
+- **Cyril**, an exceptional backend developer with a talent for making complex concepts accessible, played a key role in guiding the team through technical challenges.
+- **Christine**, I’m a front-end developer, curious and eager to learn.
 
 While I sometimes felt out of my comfort zone, this experience was a great opportunity for me to grow and contribute to the team.
 
