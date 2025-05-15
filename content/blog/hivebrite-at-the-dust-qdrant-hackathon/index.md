@@ -10,7 +10,7 @@ categories = [
     "tech"
 ]
 thumbnail = "/img/thumbs/hivebrite.webp"
-featureImage = "team.webp"
+featureImage = "images/team.webp"
 featureImageAlt = "Hivebrite's engineering team!"
 +++
 
