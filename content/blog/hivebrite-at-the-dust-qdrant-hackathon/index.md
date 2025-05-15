@@ -45,7 +45,7 @@ Once the setup was complete, it was time to brainstorm. We tossed around a few i
 With our idea locked in, we distributed tasks. Slim took the lead on building the Dust agent. Pierre and Cyril developed the middleware app that would communicate between the AI agent and our database. David figured out how the data would be stored and managed. Sandy and I focused on crafting the mocked data and designing how managers would interact with the agent.
 We chose Slack as our user interface. A manager could ask, for instance, "How's Team A this week?" and the AI agent would return a summary based on recent messages. We even managed to connect the event Slack to our Dust agent in near real time.
 
-![Meet Aimeline happiness AI agent](images/aimeline.webp)
+![Meet Aimeline: the face of our hackathon project analyzing team moods](images/aimeline.webp)
 
 ## 🧠 Challenges Faced
 
@@ -53,7 +53,7 @@ One of the key challenges was transforming an abstract idea into a working proto
 We also underestimated how quickly the day would fly by. Though the hackathon officially lasted a full day, the need to submit our video presentation early meant we had very limited time to design, build, and polish our project. From the first brainstorming session to the final bits of code, everything had to move fast.
 In the end, we didn't get everything fully up and running, but we were able to send mock data to Slack, which gave us a clear sense of how our idea could work in practice. We were very close to pulling in real data directly from the Dust AI agent, and with a little more time, we would have been able to complete the integration.
 
-![Result of the last analysis](images/prototype.webp)
+![Our Aimeline prototype in action: a real-time overview of team moods](images/prototype.webp)
 
 ## 💡 What We Learned
 
