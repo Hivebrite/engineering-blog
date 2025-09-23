@@ -29,7 +29,7 @@ markup:
 #       url: "/about"
 
 params:
-  authorbox: false
+  authorbox: true
   largeTwitterCard: true
   description: Engineering Blog
   enableSearch: false
