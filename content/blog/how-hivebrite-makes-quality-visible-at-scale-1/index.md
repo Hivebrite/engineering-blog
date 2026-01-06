@@ -4,7 +4,7 @@ title = "How Hivebrite Makes Quality Visible at Scale (Part 1)"
 date = "2026-01-06"
 description = "How Hivebrite Makes Quality Visible at Scale [Part 1]"
 tags = [
-    "QA", "testing", "automation", "quality assurance", "engineering practices", "risk management"
+    "QA", "automation", "engineering practices", "risk management"
 ]
 categories = [
     "tech"
