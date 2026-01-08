@@ -1,0 +1,9 @@
+{
+    "name": "Marc Le Déroff",
+    "title": "Lead QA Engineer",
+    "bio": "Marc is a Lead QA Engineer at Hivebrite, working remotely from France. He focuses on QA strategy, test automation, and quality leadership across multiple teams, with strong expertise in Playwright, test management, and data-driven quality metrics. He is particularly interested in leveraging AI to scale QA practices, improve test generation, and enhance visibility through dashboards and analytics. Outside of work, he enjoys technology projects, self-hosting tools, and music.",
+    "picture": "/img/authors/marclederoff.webp",
+    "social": {
+        "linkedin": "https://www.linkedin.com/in/marclederoff/"
+    }
+}
