@@ -65,7 +65,7 @@ Refinement is part of continuous planning. It lets teams clarify requirements as
 Refinement helps us:
 
 - Improve requirements as new information emerges
-- Break work into clearer, estimable user stories
+- Break work into estimable, executable user stories ready for implementation
 - Reduce ambiguity with well-defined acceptance criteria
 - Build shared understanding across the squad
 
@@ -153,19 +153,23 @@ This balance is intentional. Manual testing remains essential for exploration an
 
 Not all automated tests are equal.
 
-We rely on **quality gates** to signal trust:
+We rely on **quality gates** to signal trust at different stages of the deployment pipeline:
 
-- Some tests are robust enough to act as **release gates**
-- Others qualify as **deployment or CI gates**
-- New tests must first prove stability before being promoted
+**Deployment gates** run before code reaches pre-release environments. A selected suite of Playwright and Cucumber end-to-end tests acts as an early filter — if tests fail, the deployment is blocked until the issue is resolved. This catches critical instability before it reaches later stages, saving time and providing fast feedback. The QA Automation Engineer on Duty monitors these gates and works with developers to resolve blockers quickly.
 
-This prevents false confidence and keeps automation accelerating delivery rather than slowing it down.
+**Release gates** are the final checkpoint before production. After code is deployed to an ISO-production environment with all feature flags activated, critical Playwright tests covering essential user journeys run one last time. Only if all tests pass does the QA Automation Engineer give the go-ahead for production deployment. Any failure blocks the release until addressed.
+
+**New tests** must first prove stability before being promoted to either gate. This prevents false confidence and keeps automation accelerating delivery rather than slowing it down.
+
+Together, these gates ensure that only builds meeting strict quality standards reach customers, while catching issues as early as possible in the pipeline.
 
 ### Stability as a first-class metric
 
-Automation health is treated as a quality signal.
+Automation health is treated as a quality signal — both before and after deployment.
 
-Across our automated suite, instability is kept low. Flaky or muted tests are addressed quickly to preserve trust. When automation fails, teams can act with confidence.
+**Pre-release:** Across our automated suite, instability is kept low. Flaky automated Playwright tests or muted tests are addressed quickly to preserve trust. When automation fails, teams can act with confidence rather than doubt.
+
+**In production:** Automated tests run every 20 minutes across all main production regions (US, EU, APAC, CH) on dedicated test networks. These tests monitor core features like login, group navigation, and user settings. If any fail, the production support team is immediately alerted to investigate and resolve the issue. This continuous monitoring catches problems that may emerge after deployment and provides real-time visibility into production health.
 
 ### Automation as a roadmap
 
