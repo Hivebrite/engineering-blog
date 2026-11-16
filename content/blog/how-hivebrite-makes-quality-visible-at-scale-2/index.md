@@ -41,7 +41,7 @@ But that success exposed a different problem. When code and tests are both cheap
 
 ## The first wave: AI as a QA copilot
 
-Our first experiments focused on augmenting existing QA workflows. Using Dust, our internal AI-assistant platform, we built assistants for common QA activities: analysing bug data and tickets, searching the test knowledge stored in Qase (our test management tool), and drafting new test cases. The goal was simple: spend less time gathering information and more time making decisions.
+Our first experiments focused on augmenting existing QA workflows. Using [Dust](https://dust.tt), a third-party AI-assistant platform, we built assistants for common QA activities: analysing bug data and tickets, searching the test knowledge stored in Qase (our test management tool), and drafting new test cases. The goal was simple: spend less time gathering information and more time making decisions.
 
 We then applied the same idea closer to automation. With Cursor, we wrote down our browser-test conventions (we use Playwright) as rules the AI could follow: how to structure a test, which shared helpers to reuse and which patterns to avoid. Instead of starting every automated test from an empty file, a developer or QA Analyst could describe the scenario and let the agent draft most of the test within our existing framework.
 
