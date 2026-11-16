@@ -210,7 +210,7 @@ Our six principles, in priority order:
 5. **Generic rules over one rule per test case.** The rule captures stable behaviour; individual variants belong in tests.
 6. **The contract over where it is tested.** A rule should remain valid whether its proof lives in a unit test, an integration test, Playwright, Qase or somewhere else.
 
-We use a lightweight syntax inspired by EARS (Easy Approach to Requirements Syntax), where one sentence describes one observable behaviour.
+We use a lightweight syntax inspired by [EARS](https://alistairmavin.com/ears/) (Easy Approach to Requirements Syntax), where one sentence describes one observable behaviour.
 
 For example:
 
