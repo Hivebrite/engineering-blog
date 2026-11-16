@@ -25,7 +25,7 @@ AI made code and tests much cheaper to produce at Hivebrite. In the last quarter
 
 But more automation did not automatically mean more confidence. We even saw an AI-generated test pass while validating the wrong product behaviour.
 
-Our response has been to move towards **Spec-Driven Development**: define the product promise first, connect it to evidence through Spec Gate, and make that intent accessible to Product, Support, developers, QA and AI agents.
+Our response has been to move towards **Spec-Driven Development**: define the product promise first, connect it to evidence through Spec Gate (an internally developed tool that runs directly in our CI through a shared GitHub workflow), and make that intent accessible to Product, Support, developers, QA and AI agents.
 
 The goal is no longer simply to generate more tests. It is to know **what we promised, what proves it, and which evidence needs to run when the product changes.**
 
