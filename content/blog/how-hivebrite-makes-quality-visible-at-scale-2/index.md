@@ -1,6 +1,6 @@
 +++
 author = "marclederoff"
-title = "How Hivebrite Makes Quality Visible at Scale (Part 2): When AI Makes Tests Cheap, Intent Becomes the Bottleneck"
+title = "How Hivebrite Makes Quality Visible at Scale (Part 2)"
 date = "2026-11-16"
 description = "A year of AI-assisted Quality Engineering at Hivebrite: what worked, what broke, and why we now write down the product's promises before we write the tests."
 tags = [
@@ -14,6 +14,8 @@ thumbnail = "/img/thumbs/hivebrite.webp"
 #featureImage = "hivebrite.webp"
 #featureImageAlt = "Hivebrite's engineering team!"
 +++
+
+## When AI Makes Tests Cheap, Intent Becomes the Bottleneck
 
 *A year of AI-assisted Quality Engineering at Hivebrite: what worked, what broke, and why we now write down the product’s promises before we write the tests.*
 
