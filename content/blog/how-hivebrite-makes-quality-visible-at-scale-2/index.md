@@ -113,6 +113,10 @@ rather than:
 
 What the product should do must exist independently from both the code and the test. That realisation is why Spec-Driven Development has become central to our work.
 
+Spec-Driven Development covers [a spectrum of practices](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html). In its most common form, *spec-first*, a specification guides the AI for a single change and is then set aside. We chose a *spec-anchored* approach instead: once written, a rule lives alongside the codebase, evolves with the product, and stays linked to the tests that provide evidence for it.
+
+That choice reflects a shift in where value sits. When generating code becomes cheap, the durable asset is the knowledge of what the product promises. Code can be regenerated, refactored or even rewritten in another stack. Without written promises, nobody can tell whether the new version still keeps them.
+
 ## From documentation to product promises
 
 Mature products usually have plenty of documentation, and Hivebrite is no exception. We have technical documentation, tickets, Qase cases, customer-facing Knowledge Base articles, code comments, ADRs (Architecture Decision Records explaining technical choices), and years of implementation history.
